@@ -1,19 +1,23 @@
-.box{
-  display:flex;
-
-  border-radius:8px;
+.box {
+  display: flex;
   padding: 8px;
   max-width: 128px;
 
-  &.gray{
+  &.square {
+    border-radius: 8px;
+  }
+  &.circle {
+    border-radius: 50%;
+  }
+  &.gray {
     background: #fafafa;
   }
 
-  &.red{
-    background:lightcoral;
+  &.red {
+    background: lightcoral;
   }
 
-  &.blue{
+  &.blue {
     background: cornflowerblue;
   }
 
