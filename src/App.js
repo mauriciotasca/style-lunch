@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Box from "./components/Box";
+import {Box} from "./components/Box";
 
 class App extends Component {
     render() {
@@ -10,7 +10,7 @@ class App extends Component {
                 </div>
                 <div className="container">
                     <Box color="red" />
-                    <Box />
+                    <Box color="gray" shape="circle" size={110} />
                     <Box color="blue" />
                 </div>
 
