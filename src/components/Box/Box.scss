@@ -1,0 +1,20 @@
+.box{
+  display:flex;
+
+  border-radius:8px;
+  padding: 8px;
+  max-width: 128px;
+
+  &.gray{
+    background: #fafafa;
+  }
+
+  &.red{
+    background:lightcoral;
+  }
+
+  &.blue{
+    background: cornflowerblue;
+  }
+
+}
